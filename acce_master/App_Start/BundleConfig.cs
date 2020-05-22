@@ -19,7 +19,7 @@ namespace acce_master
             bundles.Add(new ScriptBundle("~/content/js/autosize.min").Include(
                         "~/content/js/autosize.min.js"));
             bundles.Add(new ScriptBundle("~/content/js/bootbox").Include(
-                        "~/content/js/bootboxjs"));
+                        "~/content/js/bootbox.js"));
             bundles.Add(new ScriptBundle("~/content/js/bootstrap-colorpicker.min").Include(
                         "~/content/js/bootstrap-colorpicker.min.js"));
             bundles.Add(new ScriptBundle("~/content/js/bootstrap-datepicker.min").Include(
@@ -62,8 +62,8 @@ namespace acce_master
                      "~/content/js/excanvas.min.js"));
             bundles.Add(new ScriptBundle("~/content/js/fullcalendar.min").Include(
                      "~/content/js/fullcalendar.min.js"));
-            bundles.Add(new ScriptBundle("~/content/js/fullcalendar").Include(
-                     "~/content/js/fullcalendar.js"));
+            //bundles.Add(new ScriptBundle("~/content/js/fullcalendar").Include(
+            //         "~/content/js/fullcalendar.js"));
             bundles.Add(new ScriptBundle("~/content/js/holder.min").Include(
                      "~/content/js/holder.min.js"));
             bundles.Add(new ScriptBundle("~/content/js/html5shiv.min").Include(
@@ -138,6 +138,21 @@ namespace acce_master
                     "~/content/js/tree.min.js"));
             bundles.Add(new ScriptBundle("~/content/js/wizard.min").Include(
                     "~/content/js/wizard.min.js"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             bundles.Add(new StyleBundle("~/content/css/ace-ie.min").Include(
                 "~/content/css/ace-ie.min.css"));
             bundles.Add(new StyleBundle("~/content/css/ace-part2.min").Include(
